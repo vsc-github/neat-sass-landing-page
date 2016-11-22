@@ -1,0 +1,19 @@
+// bower:scss
+@import 'bourbon';
+@import 'neat';
+
+@import "shared/_vars";
+@import "shared/_mixins";
+@import "shared/_animations";
+
+@import "shared/_body";
+@import "shared/_intro";
+@import "shared/_resume";
+@import "shared/_skills";
+@import "shared/_portfolio";
+@import "shared/_contact";
+@import "shared/_exp";
+@import "shared/_footer";
+
+@import "shared/_header";
+// endbower
