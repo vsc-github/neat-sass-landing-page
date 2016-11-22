@@ -1,0 +1,11 @@
+.footer{
+    @include span-columns(8);
+    @include shift(2);
+    background-color: $bg-color2;
+    text-align:center;
+
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+    img{ width:25px; margin: 10px 25px 7px 0}
+}
