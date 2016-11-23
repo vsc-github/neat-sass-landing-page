@@ -4,12 +4,15 @@
 	background-color: $bg-color;
 	padding: 3em 4em 4em 4em;
 
-	img { width: 70px;}
+	img {
+		@include onHoverPointer;
+		width: 70px;}
 
 	#menu{
 	float:right;
 
 		span{
+			@include onHoverPointer;
 			color: #e1e1e3;
 			font-size: 0.8em;
 			font-weight: bold;

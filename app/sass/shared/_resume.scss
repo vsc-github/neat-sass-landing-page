@@ -6,6 +6,7 @@
 	text-align: center;
 
 	#download{
+		@include onHoverPointer;
 		display: inline-block;
 		margin: 30px 0;
 		text-align: center;

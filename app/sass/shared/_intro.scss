@@ -80,6 +80,10 @@
 		@include span-columns(12);
 		background-color:#26cb63;
 		text-align:center;
-		img{ width:25px; margin: 18px 25px 15px 0}
+		img{
+			@include onHoverPointer;
+			width:25px;
+			margin: 18px 25px 15px 0;
+		}
 	}
 }

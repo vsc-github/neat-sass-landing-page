@@ -39,6 +39,7 @@
 
     	#main{
 	    	@include span-columns(5 of 8);
+            @include onHoverPointer;
 	    	padding: 0 0 0 30px;
 
 	    	.project{
@@ -78,6 +79,7 @@
 
     		#sub1{
     			@include span-columns(3 of 3);
+              @include onHoverPointer;
 	    		background-color: white;
 	    		height: 235px;
 	    		margin-bottom:30px;
@@ -98,6 +100,7 @@
     		}
     		#sub2{
     			@include span-columns(3 of 3);
+              @include onHoverPointer;
 	    		background-color: white;
 	    		height: 235px;
 	    		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
@@ -121,6 +124,7 @@
 	#more{
     	@include span-columns(0.6 of 8);
     	@include shift(3.7);
+      @include onHoverPointer;
     	text-align:center;
 	  	padding: 5px;
 	  	border: 1px solid rgba(0,0,0,0.2);
