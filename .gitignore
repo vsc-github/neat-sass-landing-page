@@ -40,3 +40,4 @@ jspm_packages
 .sass-cache/
 .tmp/
 bower_components/
+.idea/
